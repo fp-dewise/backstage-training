@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: devex
+  description: Developer Experience Portal
+  tags:
+    - csharp
+    - react
+spec:
+  type: service
+  owner: dewise
+  lifecycle: production
